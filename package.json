@@ -1,0 +1,22 @@
+{
+  "name": "react-native-scrollview-offset",
+  "version": "0.0.1",
+  "description": "Cross-compatible RN ScrollView component for contentOffset support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@https://github.com/dsernst/react-native-scrollview-offset.git"
+  },
+  "keywords": [
+    "react-native",
+    "scrollview",
+    "contentOffset",
+    "android",
+    "cross-compatible"
+  ],
+  "author": "David Ernst <npm@dsernst.com> (http://dsernst.com)",
+  "license": "ISC"
+}
