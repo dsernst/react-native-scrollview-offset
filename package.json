@@ -1,6 +1,6 @@
 {
   "name": "react-native-scrollview-offset",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Cross-compatible RN ScrollView component for contentOffset support",
   "main": "index.js",
   "scripts": {
