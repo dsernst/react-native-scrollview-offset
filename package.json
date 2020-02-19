@@ -17,6 +17,31 @@
     "android",
     "cross-compatible"
   ],
+  "peerDependencies": {
+    "react": ">=16.8",
+    "react-native": ">=0.59"
+  },
   "author": "David Ernst <npm@dsernst.com> (http://dsernst.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^0.0.7",
+    "@types/react-native": "^0.61.15",
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  },
+  "prettier": {
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "importSort": {
+    ".js, .jsx, .ts, .tsx": {
+      "style": "module",
+      "parser": "typescript"
+    }
+  }
 }
