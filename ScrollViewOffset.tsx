@@ -14,7 +14,7 @@
 import React, { MutableRefObject, ReactNode, useEffect, useRef, useState } from 'react'
 import { InteractionManager, ScrollView, ScrollViewProps, View } from 'react-native'
 
-function ScrollViewOffset(props: ScrollViewProps & { children: ReactNode; startAtEnd: boolean }) {
+function ScrollViewOffset(props: ScrollViewProps & { children: ReactNode; startAtEnd?: boolean }) {
   const scrollViewRef: MutableRefObject<ScrollView | null> = useRef(null)
   const [opacity, setOpacity] = useState(0)
 
